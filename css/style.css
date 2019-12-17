@@ -322,6 +322,20 @@ h1, h2, h3, h4, h5, h6, figure {
 	background-position: center top;
   }
 }
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) 
+and (orientation: portrait) { 
+  .fh5co-cover {
+    height: 600px;
+	background-position: center top;
+	background-size: auto 100%;
+  }
+}
+
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
   height: 900px;
