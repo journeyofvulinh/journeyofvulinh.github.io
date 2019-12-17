@@ -301,6 +301,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
+  background-position: center top;
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -312,13 +313,13 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgba(0, 0, 0, 0.5);
 }
 .fh5co-cover > .fh5co-container {
-  position: relative;
-  background-position: center top;
+  position: relative;  
   z-index: 10;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: 600px;
+	background-position: center top;
   }
 }
 .fh5co-cover .display-t,
