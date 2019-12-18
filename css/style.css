@@ -330,7 +330,8 @@ and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2) 
 and (orientation: portrait) { 
   .fh5co-cover {
-	background-size: 10% 100%;
+	background-size: auto 100%;
+	background-position: center top;
   }
 }
 
