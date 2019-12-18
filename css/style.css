@@ -296,6 +296,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {  
+  background-image:url(images/img_bg_2.jpg);
   height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -318,6 +319,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
+	background-image:url(images/img_bg_2_portrait.jpg);
     height: 600px;
 	background-position: center top;
   }
@@ -329,9 +331,8 @@ and (min-device-width: 375px)
 and (max-device-width: 667px) 
 and (-webkit-min-device-pixel-ratio: 2) 
 and (orientation: portrait) { 
-  .fh5co-cover {	    
-	background-size: cover;
-	left: 50%;
+  .fh5co-cover {	
+    background-image:url(images/img_bg_2_portrait.jpg); 
   }
 }
 
