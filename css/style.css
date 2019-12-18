@@ -329,8 +329,8 @@ and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2) 
 and (orientation: portrait) { 
   .fh5co-cover {	
-    background-image:url(images/img_bg_2_portrait.jpg);
-	background-size: cover;
+    
+	background-size: contain;
   }
 }
 
