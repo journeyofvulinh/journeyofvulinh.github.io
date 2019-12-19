@@ -954,8 +954,8 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 95px;
-  height: 95px;
+  width: 100px;
+  height: 100px;
   background: rgba(255, 79, 154, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
@@ -964,6 +964,18 @@ form label {
   border-radius: 50%;
   position: relative;
   animation: pulse 1s ease infinite;
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+  .simply-countdown > .simply-section {
+	  width: 75px;
+      height: 75px;
+  }
 }
 
 @keyframes pulse {
@@ -995,6 +1007,16 @@ form label {
 .simply-countdown > .simply-section .simply-amount {
   font-size: 28px;
   /* amounts */
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+  .simply-countdown > .simply-section .simply-amount {
+	  font-size: 20px;      
+  }
 }
 
 .simply-countdown > .simply-section .simply-word {
