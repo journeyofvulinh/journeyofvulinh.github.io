@@ -1014,7 +1014,11 @@ form label {
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  and (orientation: portrait) {
+  .simply-countdown > .simply-section > div {
+  /* countdown block inner div */
+    vertical-align: top;    
+  }
   .simply-countdown > .simply-section .simply-amount {
 	  font-size: 20px;      
   }
