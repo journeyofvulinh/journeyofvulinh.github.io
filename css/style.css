@@ -973,8 +973,9 @@ form label {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
   .simply-countdown > .simply-section {
-	  width: 80px;
-      height: 80px;
+	  margin: 0 1px;
+	  width: 60px;
+      height: 60px;
   }
 }
 
@@ -1015,7 +1016,7 @@ form label {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
   .simply-countdown > .simply-section .simply-amount {
-	  font-size: 22px;      
+	  font-size: 20px;      
   }
 }
 
