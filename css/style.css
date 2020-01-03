@@ -256,15 +256,6 @@ h1, h2, h3, h4, h5, h6, figure {
 
 }
 
-#fh5co-counter,
-#fh5co-event,
-.fh5co-bg2 {
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
 .fh5co-bg2 {
   background-position: center center;
   width: 100%;
@@ -272,9 +263,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 
-@media only screen and (max-width: 480px) and (orientation: portrait){
-  #fh5co-counter,
-  #fh5co-event,
+@media only screen and (max-width: 480px){
   .fh5co-bg2 {
     background-size: cover;
     background-position: -380px 0%;
@@ -282,14 +271,11 @@ h1, h2, h3, h4, h5, h6, figure {
 
 }
 
-@media only screen and (max-width: 768px) and (orientation: portrait){
-  #fh5co-counter,
-  #fh5co-event,
+@media only screen and (max-width: 768px){
   .fh5co-bg2 {
     background-size: cover;
     background-position: -300px 0%;
   }
-
 }
 
 
