@@ -272,12 +272,22 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 
-@media only screen and (max-width: 768px) and (orientation: portrait){
+@media only screen and (max-width: 480px) and (orientation: portrait){
   #fh5co-counter,
   #fh5co-event,
   .fh5co-bg2 {
     background-size: cover;
     background-position: -400px 0%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait){
+  #fh5co-counter,
+  #fh5co-event,
+  .fh5co-bg2 {
+    background-size: cover;
+    background-position: -300px 0%;
   }
 
 }
